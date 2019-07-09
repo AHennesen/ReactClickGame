@@ -65,6 +65,7 @@ imageClick = event => {
       }
     );
   }
-}
+};
 
+// Componets are rendered in the following order: navbar, 
 export default App;
