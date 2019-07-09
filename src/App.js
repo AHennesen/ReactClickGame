@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
 import './App.css';
 import ImageCard from "./components/ImageCard";
+import Hero from './components/Hero';
+import Footer from './components/Footer'
+import Navbar from './components/Navbar'
 import images from './images.json';
 import swal from 'sweetalert';
-import { fchown } from 'fs';
-import { tsConditionalType } from '@babel/types';
 
 
 class App extends Component {
@@ -13,12 +14,10 @@ class App extends Component {
     clickedImage: [],
     score: 0
   }
-};
-
-// when a image is clicked it is taken out of the array
-imageClick = event => {
-  const currentImages = event.target.alt;
-  const imagesAlreadyClicked = this.state.clickedImage.indexOf(currentImages) > -1;
+  // when a image is clicked it is taken out of the array
+  imageClick = event => {
+    const currentImages = event.target.alt;
+    const imagesAlreadyClicked = this.state.clickedImage.indexOf(currentImages) > -1;
 
   // If an image that has been clicked on already is clicked it resets the score and reshuffles the images. 
   if (imagesAlreadyClicked) {
@@ -68,4 +67,28 @@ imageClick = event => {
 };
 
 // Componets are rendered in the following order: navbar, Hero, imageCard, footer
+render(){
+  return (
+    <>
+      <p></p>
+      <Navbar score={this.state.score} />
+      <Hero />
+      <section className="section wrapper">
+
+        {this.state.images.map(image => (
+          <ImageCard
+            imageClick={this.imageClick}
+            id={images.id}
+            key={images.id}
+            image={images.image}
+          />
+        ))}
+      </section>
+      <Footer />
+    </>
+  );
+}
+};
+
+
 export default App;
