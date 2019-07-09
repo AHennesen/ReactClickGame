@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "image": "https://uploads7.wikiart.org/images/leonardo-da-vinci/mona-lisa.jpg!Large.jpg"
+    },
+    {
+      "id": 2,
+      "image": "https://uploads2.wikiart.org/images/grant-wood/american-gothic-1930.jpg!Large.jpg"
+    },
+    {
+      "id": 3,
+      "image": "https://uploads1.wikiart.org/images/michelangelo/sistine-chapel-ceiling-creation-of-adam-1510.jpg!Large.jpg"
+    },
+    {
+      "id": 4,
+      "image": "https://uploads2.wikiart.org/images/edvard-munch/the-scream-1893(2).jpg!Large.jpg"
+    },
+    {
+      "id": 5,
+      "image": "https://uploads0.wikiart.org/00139/images/pablo-picasso/guernica-by-pablo-picasso.jpg!Large.jpg"
+    },
+    {
+      "id": 6,
+      "image": "https://uploads5.wikiart.org/00129/images/diego-velazquez/las-meninas.jpg!Large.jpg"
+    },
+    {
+      "id": 7,
+      "image": "https://uploads2.wikiart.org/images/vincent-van-gogh/cafe-terrace-place-du-forum-arles-1888(1).jpg!Large.jpg"
+    },
+    {
+      "id": 8,
+      "image": "https://uploads6.wikiart.org/images/sandro-botticelli/the-birth-of-venus-1485(1).jpg!Large.jpg"
+    },
+    {
+      "id": 9,
+      "image": "https://uploads6.wikiart.org/00129/images/katsushika-hokusai/the-great-wave-off-kanagawa.jpg!Large.jpg"
+    },
+    {
+      "id": 10,
+      "image": "https://uploads7.wikiart.org/images/rembrandt/the-return-of-the-prodigal-son-1669.jpg!Large.jpg"
+    },
+    {
+      "id": 11,
+      "image": "https://uploads6.wikiart.org/images/jacques-louis-david/the-oath-of-horatii-1784.jpg!Large.jpg"
+    },
+    {
+      "id": 12,
+      "image": "https://uploads7.wikiart.org/images/artemisia-gentileschi/judith-beheading-holofernes-1620.jpg!Large.jpg"
+    }
+  ]
