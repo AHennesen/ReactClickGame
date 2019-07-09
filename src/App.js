@@ -67,5 +67,5 @@ imageClick = event => {
   }
 };
 
-// Componets are rendered in the following order: navbar, 
+// Componets are rendered in the following order: navbar, Hero, imageCard, footer
 export default App;
