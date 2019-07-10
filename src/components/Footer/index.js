@@ -6,6 +6,7 @@ function Footer() {
     <footer className='footer is-fixed-bottom'>
       <div className='content has-text-centered'>
         <a href="https://github.com/AHennesen/ReactClickGame" id="githubLink">
+          <h5>Andrew Hennesen</h5>
         </a>
       </div>
     </footer>

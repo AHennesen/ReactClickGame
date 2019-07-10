@@ -64,7 +64,7 @@ class App extends Component {
       }
     );
   }
-};
+  };
 
 // Componets are rendered in the following order: navbar, Hero, imageCard, footer
 render(){
@@ -82,11 +82,12 @@ render(){
             image={image.image}
           />
         ))}
+
       </section>
       <Footer />
     </>
   );
-}
+  }
 }
 
 

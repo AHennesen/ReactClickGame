@@ -1,0 +1,9 @@
+.footer.is-fixed-bottom{
+    /* height: 50px; */
+    /* padding: 20px; */
+    background-color: aqua;
+}
+
+.footer {
+    padding: 3rem 1.5rem 1rem;
+}

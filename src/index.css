@@ -7,6 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: url(https://memorialregionalhealth.com/wp-content/uploads/Canvas-background-1.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 code {
