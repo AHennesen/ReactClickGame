@@ -10,7 +10,7 @@ import swal from 'sweetalert';
 
 class App extends Component {
   state = {
-    images,
+    images, 
     clickedImage: [],
     score: 0
   }
@@ -40,7 +40,7 @@ class App extends Component {
         images: this.state.images.sort(function(a, b){
           return 0.5 - Math.random()
         }),
-        clickedImage: this.state.concat(
+        clickedImage: this.state.clickedImage.concat(
           currentImages
         ),
         score: this.state.score + 1
@@ -70,7 +70,6 @@ class App extends Component {
 render(){
   return (
     <>
-      <p></p>
       <Navbar score={this.state.score} />
       <Hero />
       <section className="section wrapper">
@@ -78,9 +77,9 @@ render(){
         {this.state.images.map(image => (
           <ImageCard
             imageClick={this.imageClick}
-            id={images.id}
-            key={images.id}
-            image={images.image}
+            id={image.id}
+            key={image.id}
+            image={image.image}
           />
         ))}
       </section>
@@ -88,7 +87,7 @@ render(){
     </>
   );
 }
-};
+}
 
 
 export default App;
